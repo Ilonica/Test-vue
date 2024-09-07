@@ -1,0 +1,46 @@
+*{padding: 0; margin: 0;}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 100%;
+    border-right: 1px solid #EAEAEA;
+    box-sizing: border-box;
+}
+
+.icon-buttons-active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 199px;
+    height: 52px;
+    background-color: #E5E5E5;
+    border: 0px;
+}
+
+.icon-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 199px;
+    height: 52px;
+    background-color: white;
+    border: 0px;
+}
+
+.text-buttons {
+    display: flex;
+    justify-content: tflex-start;
+    align-items: center;
+    padding-left: 8px;
+    width: 143px;
+    height: 16px;
+    font-size: 14px;
+}
+
+.ibm-plex-sans-regular {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
